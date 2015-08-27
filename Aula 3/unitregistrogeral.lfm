@@ -1,0 +1,122 @@
+object frmRegistroGeral: TfrmRegistroGeral
+  Left = 423
+  Height = 331
+  Top = 175
+  Width = 374
+  Caption = 'Registro Geral'
+  ClientHeight = 331
+  ClientWidth = 374
+  LCLVersion = '1.2.4.0'
+  object lblTitulo: TLabel
+    Left = 16
+    Height = 24
+    Top = 8
+    Width = 243
+    Caption = 'Cadastro de Funcionário'
+    Font.Height = -20
+    ParentColor = False
+    ParentFont = False
+  end
+  object txtMatricula: TEdit
+    Left = 200
+    Height = 27
+    Top = 48
+    Width = 160
+    TabOrder = 0
+  end
+  object txtNome: TEdit
+    Left = 200
+    Height = 27
+    Top = 80
+    Width = 160
+    TabOrder = 1
+  end
+  object txtEndereco: TEdit
+    Left = 200
+    Height = 27
+    Top = 112
+    Width = 160
+    TabOrder = 2
+  end
+  object txtIdade: TEdit
+    Left = 200
+    Height = 27
+    Top = 144
+    Width = 160
+    TabOrder = 3
+  end
+  object txtDataDeNascimento: TEdit
+    Left = 200
+    Height = 27
+    Top = 174
+    Width = 160
+    TabOrder = 4
+  end
+  object lblMatricula: TLabel
+    Left = 16
+    Height = 17
+    Top = 56
+    Width = 124
+    Caption = 'Matrícula (integer):'
+    ParentColor = False
+  end
+  object lblNome: TLabel
+    Left = 16
+    Height = 17
+    Top = 88
+    Width = 94
+    Caption = 'Nome (string):'
+    ParentColor = False
+  end
+  object lblEndereco: TLabel
+    Left = 16
+    Height = 17
+    Top = 120
+    Width = 115
+    Caption = 'Endereço (string):'
+    ParentColor = False
+  end
+  object lblIdade: TLabel
+    Left = 16
+    Height = 17
+    Top = 152
+    Width = 83
+    Caption = 'Idade (byte):'
+    ParentColor = False
+  end
+  object lblNome1: TLabel
+    Left = 16
+    Height = 17
+    Top = 184
+    Width = 180
+    Caption = 'Data de nascimento (Date):'
+    ParentColor = False
+  end
+  object btnArmazenar: TButton
+    Left = 104
+    Height = 25
+    Top = 224
+    Width = 180
+    Caption = 'Armazenar nas variáveis'
+    OnClick = btnArmazenarClick
+    TabOrder = 5
+  end
+  object btnLer: TButton
+    Left = 104
+    Height = 25
+    Top = 252
+    Width = 180
+    Caption = 'Ler das variáveis'
+    OnClick = btnLerClick
+    TabOrder = 6
+  end
+  object btnLimpar: TButton
+    Left = 104
+    Height = 25
+    Top = 280
+    Width = 180
+    Caption = 'Limpar as caixas'
+    OnClick = btnLimparClick
+    TabOrder = 7
+  end
+end
