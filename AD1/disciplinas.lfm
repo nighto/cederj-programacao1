@@ -1,0 +1,103 @@
+object frmDisciplinas: TfrmDisciplinas
+  Left = 997
+  Height = 209
+  Top = 137
+  Width = 320
+  Caption = 'Incluir Disciplinas'
+  ClientHeight = 209
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '1.2.4.0'
+  object txtNome: TEdit
+    Left = 80
+    Height = 27
+    Top = 32
+    Width = 232
+    Enabled = False
+    TabOrder = 0
+  end
+  object lblTitulo: TLabel
+    Left = 9
+    Height = 17
+    Top = 11
+    Width = 220
+    Caption = 'Entrando disciplinas para o aluno:'
+    ParentColor = False
+  end
+  object lblNome: TLabel
+    Left = 9
+    Height = 17
+    Top = 32
+    Width = 43
+    Caption = 'Nome:'
+    ParentColor = False
+  end
+  object txtCPF: TEdit
+    Left = 80
+    Height = 27
+    Top = 64
+    Width = 232
+    Enabled = False
+    TabOrder = 1
+  end
+  object lblCPF: TLabel
+    Left = 9
+    Height = 17
+    Top = 64
+    Width = 27
+    Caption = 'CPF:'
+    ParentColor = False
+  end
+  object lblSubtitulo: TLabel
+    Left = 9
+    Height = 17
+    Top = 114
+    Width = 290
+    Caption = 'Entre com os códigos de até trës disciplinas:'
+    ParentColor = False
+  end
+  object txtMat1: TEdit
+    Left = 9
+    Height = 27
+    Top = 142
+    Width = 91
+    MaxLength = 5
+    TabOrder = 2
+  end
+  object txtMat2: TEdit
+    Left = 112
+    Height = 27
+    Top = 142
+    Width = 98
+    MaxLength = 5
+    TabOrder = 3
+  end
+  object txtMat3: TEdit
+    Left = 216
+    Height = 27
+    Top = 142
+    Width = 96
+    MaxLength = 5
+    TabOrder = 4
+  end
+  object btnLimparDisciplinas: TButton
+    Left = 40
+    Height = 27
+    Top = 176
+    Width = 130
+    AutoSize = True
+    Caption = 'Limpar Disciplinas'
+    OnClick = btnLimparDisciplinasClick
+    TabOrder = 5
+  end
+  object Button1: TButton
+    Left = 174
+    Height = 27
+    Top = 176
+    Width = 138
+    AutoSize = True
+    Caption = 'Verificar Disciplinas'
+    OnClick = Button1Click
+    TabOrder = 6
+  end
+end
